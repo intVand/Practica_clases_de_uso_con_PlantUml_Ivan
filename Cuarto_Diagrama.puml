@@ -1,0 +1,9 @@
+@startuml
+
+left to right direction
+(Acceder) as A
+(Registrarse) as R
+
+A <.. R : <<extend>>
+
+@enduml
