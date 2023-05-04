@@ -1,0 +1,14 @@
+@startuml
+
+left to right direction
+:Cliente: as Cl
+(Confirmar pedido) as CoP
+(Cancelar pedido) as CaP
+(Devolver cambio) as DC
+
+Cl -- CoP
+Cl -- CaP
+CoP ..> DC : <<include>>
+CaP ..> DC : <<include>>
+
+@enduml
